@@ -1,0 +1,47 @@
+.footer{
+    padding:2rem;
+}
+
+.footer h3{
+    margin:0;
+    padding:0;
+    font-size:1.5rem;
+}
+
+.footer p{
+    margin:0;
+    padding:0;
+}
+
+
+
+.footer-sources, .footer-links{
+    padding-bottom:1rem;
+    border-bottom:1px solid grey;
+}
+
+.footer-students, .footer-links{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1rem;
+
+}
+
+
+
+.footer-students-info, .footer-links-site{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.footer-students-info{
+    gap:10px;
+}
+
+.footer-students, .footer-links, .footer-copyright{
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+
