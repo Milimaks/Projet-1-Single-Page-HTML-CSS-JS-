@@ -3,7 +3,7 @@
 }
 
 .footer h3{
-    margin:0;
+    margin:0 0 1rem 0;
     padding:0;
     font-size:1.5rem;
 }
@@ -15,20 +15,32 @@
 
 
 
-.footer-sources, .footer-links{
-    padding-bottom:1rem;
-    border-bottom:1px solid grey;
+.footer-sources{
+    padding-bottom:2rem;
+    border-bottom:1px solid rgba(128,128,128,0.5);
 }
 
-.footer-students, .footer-links{
+.footer-students{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 1rem;
     font-size:1.25rem;
-
 }
 
+.footer-links{
+    display:flex;
+    gap:2rem;
+    justify-content:center;
+    font-size:1.5rem;
+    margin: 0 0 2rem 0;
+    padding:0;
+    
+}
+
+.footer-students{
+    padding-left:0;
+}
 
 
 .footer-students-info, .footer-links-site{
@@ -39,6 +51,11 @@
 
 .footer-students-info{
     gap:10px;
+    background-color:white;
+    color:black;
+    border-radius:5px;
+    padding:1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .footer-students, .footer-links, .footer-copyright{
