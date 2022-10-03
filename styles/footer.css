@@ -25,6 +25,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 1rem;
+    font-size:1.25rem;
 
 }
 
