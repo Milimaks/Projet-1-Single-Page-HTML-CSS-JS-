@@ -1,27 +1,43 @@
+<<<<<<< HEAD
 header {
     position: relative;
 }
+=======
+header{
+    height: 10vh;
+    width: 100vh;
+    background-size: cover;
+    background: cover;
+
+}
+
+>>>>>>> 4b5c8a018a7cee9efbafc6c6a19249ca3f6ee7e4
 .navbar {
+    z-index: 1000;
+    position: fixed;
     background-color: #8C0000;
+    padding: 20px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     box-sizing: border-box;
-    z-index: 10;
 }
 
+<<<<<<< HEAD
 .toggle {
     position: absolute;
     right: 0;
     padding-right: 10px;
 }
+=======
+>>>>>>> 4b5c8a018a7cee9efbafc6c6a19249ca3f6ee7e4
 .navbar a {
-    color: rgb(255, 255, 255);
+    z-index: 850;
+    color: white;
     text-decoration: none;
 }
-ul {
-    list-style-type: none;
-}
+
 .navbar .logo {
     font-size: 2em;
     font-weight: bold;
@@ -29,6 +45,7 @@ ul {
 
 .navbar .nav-links ul {
     display: flex;
+    list-style: none;
 }
 
 .navbar .nav-links ul li {
@@ -43,14 +60,17 @@ ul {
 
 .navbar .menu-poke {
     display: none;
-    z-index: 10;
+    position: absolute;
     top: 50px;
-} 
+    right: 30px;
+    width: 30px;
+}
 
 @media screen and (max-width: 900px){
     .navbar {
+        z-index: 900;
         position: fixed;
-        color: var(--fontColorLight);
+        padding: 35px;
     }
 
     .navbar .logo {
@@ -62,14 +82,12 @@ ul {
     }
 
     .navbar .menu-poke {
-        display: block;
-        width: auto;
-        height: 2.5rem;
-        margin: 0 0.5rem;
+        display: flex;
+        top: 33%;
     }
 
      .nav-links {
-        top: 51px;
+        top: 0;
         left: 0;
         position: absolute;
         background-color: rgb(0 0 0 / 63%);
@@ -80,13 +98,11 @@ ul {
         justify-content: center;
         align-items: center;
         margin-left: 100%;
-        transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease;
      }
 
      .nav-links.mobile-menu {
         margin-left: 0;
-        display: flex;
-        flex-direction: column;
     }
 
      .nav-links ul {
@@ -95,4 +111,9 @@ ul {
         align-items: center;
      }
 
+     .navbar .nav-links ul li {
+        margin: 25px 0;
+        font-size: 1.2rem;
+     }
 }
+
