@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../project_1bis"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "jorisgrls.github.io"
+	}
+}

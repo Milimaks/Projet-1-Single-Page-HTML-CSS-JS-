@@ -129,3 +129,18 @@ transform: scale(1.2);
 	left: 0.25em;
 	transform: rotate(-135deg);
 } */
+
+video {
+	width: 50%;
+	height: 50%;
+	margin-left: 25%;
+	object-fit: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.back {
+	background-color: #000;
+}

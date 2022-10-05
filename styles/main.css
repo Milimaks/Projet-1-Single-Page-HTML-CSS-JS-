@@ -13,6 +13,10 @@ body{
 main {
     width: 100%;
 }
+
+img {
+    filter : contrast(200%);
+}
 /* All section basics settings */
 main section {
     background-color: var(--lightColor);
@@ -47,6 +51,7 @@ main section h2 {
         /* Insertion des pokémons */
 #poke-pikachu {
     background-image: url(../assets/pokemon-pikachu.png);
+
     background-size: contain;
     background-repeat: no-repeat;
     
