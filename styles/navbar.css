@@ -1,17 +1,6 @@
-<<<<<<< HEAD
 header {
     position: relative;
 }
-=======
-header{
-    height: 10vh;
-    width: 100vh;
-    background-size: cover;
-    background: cover;
-
-}
-
->>>>>>> 4b5c8a018a7cee9efbafc6c6a19249ca3f6ee7e4
 .navbar {
     z-index: 1000;
     position: fixed;
@@ -24,14 +13,11 @@ header{
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 .toggle {
     position: absolute;
     right: 0;
     padding-right: 10px;
 }
-=======
->>>>>>> 4b5c8a018a7cee9efbafc6c6a19249ca3f6ee7e4
 .navbar a {
     z-index: 850;
     color: white;
