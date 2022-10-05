@@ -1,3 +1,6 @@
+header {
+    position: relative;
+}
 .navbar {
     background-color: #8C0000;
     display: flex;
@@ -5,6 +8,12 @@
     width: 100%;
     box-sizing: border-box;
     z-index: 10;
+}
+
+.toggle {
+    position: absolute;
+    right: 0;
+    padding-right: 10px;
 }
 .navbar a {
     color: rgb(255, 255, 255);

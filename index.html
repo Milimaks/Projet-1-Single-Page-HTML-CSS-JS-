@@ -14,6 +14,9 @@
 <body>
     <header>
         <nav class="navbar">
+            <div class="toggle"><input type="checkbox" id="dark-mode">
+            </div>
+            
             <img src="./assets/logo-pokeball.png" alt="menu pokeball"
             class="menu-poke">
              <h1 class="title-navbar">SATOSHI TAJIRI</h1>
@@ -241,13 +244,44 @@
             <!-- zone pokebanner -->
         </div>
         <section id="form-contact">
-            <h2 class="title-type-01">CONTACT</h2>
-            <div>
-                
-            </div>
-            <article>
-                <p>formulaire de contact en cours de production...</p>
-            </article>
+            <div class="formulaire">
+                <form
+                  action="https://formsubmit.co/YOUR_EMAIL"
+                  method="POST"
+                  autocomplete="off"
+                >
+                  <h1><img src="./assets/pikachu_icon-icons.com_67535.svg">Send us a comment<img src="./assets/pikachu_icon-icons.com_67535.svg"></h1>
+                  <!-- <h2>This is a second heading</h2>
+                  <h3>Something here <span>this is something else</span></h3> -->
+          
+                  <div class="form-inner">
+                    <article>
+                      <label for="firstName">First name</label>
+                      <input type="text" name="firstName" id="firstName" required />
+                    </article>
+          
+                    <article>
+                      <label for="lastName">Last name</label>
+                      <input type="text" name="lastName" id="lastName" required />
+                    </article>
+                    <article>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required />
+                      </article>
+            
+                      <article>
+                        <label for="comment">Type your comment:</label>
+                        <textarea id="comment" name="comment" rows="10" cols="80">
+                          
+                        </textarea>
+                      </article>
+                  </div>
+          
+                                    
+          
+                  <button class="btn" type="submit">Send your Pokecomment</button>
+                </form>
+              </div>
         </section>
     </main>
     <footer>

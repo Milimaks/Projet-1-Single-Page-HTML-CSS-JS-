@@ -41,11 +41,14 @@ input[type="checkbox"]::before {
     top: 0;
     left: 0;
     height: 40px;
+    
     width: 40px;
     background-image: url('../assets/Pokeball.svg') ;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
+    
+    transition: transform 0.15s linear;
 }
 
 input[type="checkbox"]:checked::before {
