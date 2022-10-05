@@ -1,6 +1,11 @@
-header {
-    position: relative;
+header{
+    height: 10vh;
+    width: 100vh;
+    background-size: cover;
+    background: cover;
+
 }
+
 .navbar {
     z-index: 1000;
     position: fixed;
@@ -13,11 +18,6 @@ header {
     box-sizing: border-box;
 }
 
-.toggle {
-    position: absolute;
-    right: 0;
-    padding-right: 10px;
-}
 .navbar a {
     z-index: 850;
     color: white;
@@ -102,4 +102,3 @@ header {
         font-size: 1.2rem;
      }
 }
-
