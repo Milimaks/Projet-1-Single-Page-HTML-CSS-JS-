@@ -4,13 +4,15 @@
 }
 
 .quizz-question{
-    background:url("../assets/quizz/header1.webp") no-repeat;
+    background:url("../assets/quizz/header2.png") no-repeat;
     background-size: cover;
     aspect-ratio: 256/192;
     width:var(--width-quizz);
     margin:auto;
     position:relative;
+    background-color:#5dfd5f;
 }
+
 
 .question{
     position:absolute;
